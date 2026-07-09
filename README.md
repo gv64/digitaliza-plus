@@ -1,42 +1,67 @@
-# 🌐 Digitaliza+ — Inclusão Digital
+# 📱 Digitaliza+
 
-**Backend:** Java + Spring Boot | **Frontend:** React | **Banco:** MySQL
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.5-green)
+![React](https://img.shields.io/badge/React-18-cyan)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
 
----
+## 📖 Sobre o Projeto
 
-## 🚀 Como rodar o projeto
+**Digitaliza+** é uma plataforma de inclusão digital desenvolvida para conectar comunidades periféricas a recursos, voluntários e projetos de capacitação tecnológica.
 
-### 1️⃣ Instalar os programas necessários
-
-| Programa | Versão | Download |
-|----------|--------|----------|
-| Java JDK | 17 | https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html |
-| Node.js | 18+ | https://nodejs.org/ |
-| MySQL | 8.0 | https://dev.mysql.com/downloads/installer/ |
-| VS Code | Última | https://code.visualstudio.com/download |
+O projeto foi desenvolvido como **Projeto Final da Recode Pro** e tem como objetivo reduzir o analfabetismo digital e promover a inclusão social através da tecnologia.
 
 ---
 
-### 2️⃣ Configurar o banco de dados (MySQL)
+## 🎯 ODS da ONU
 
-1. Instale o MySQL Server (escolha a senha do `root` e **anote**).
-2. Abra o **MySQL Workbench**.
-3. Execute o script SQL que está em: `database/script.sql` (cria o banco `digitaliza_plus` e as tabelas).
-4. No arquivo `backend/src/main/resources/application.properties`, altere a linha:
-   ```properties
-   spring.datasource.password=SUA_SENHA_DO_MYSQL
+**ODS 9 - Indústria, Inovação e Infraestrutura**
 
-3️⃣ Rodar o Backend (Spring Boot)
-cd backend
-mvn spring-boot:run
+> *"Construir infraestruturas resilientes, promover a industrialização inclusiva e sustentável e fomentar a inovação."*
 
-O backend vai rodar em: http://localhost:8080/api
+### Por que esta ODS?
 
-4️⃣ Rodar o Frontend (React)
-cd frontend
-npm install
-npm start
+A inclusão digital é um pilar fundamental para alcançar a inovação e o desenvolvimento sustentável. Comunidades periféricas historicamente são excluídas do acesso à tecnologia, criando um ciclo de exclusão social e econômica.
 
-O frontend vai rodar em: http://localhost:3000
+### Problema Social Resolvido
 
-    ⚠️ Os dois servidores (backend e frontend) precisam estar rodando ao mesmo tempo.
+O analfabetismo digital e a falta de acesso à tecnologia em comunidades periféricas impedem que milhares de pessoas tenham acesso a:
+- Oportunidades de trabalho
+- Educação e capacitação
+- Serviços essenciais
+- Participação social
+
+### Impacto do Sistema
+
+O Digitaliza+ cria um ecossistema onde:
+- ✅ Pessoas encontram ajuda para aprender habilidades digitais
+- ✅ Voluntários ofertam seu conhecimento
+- ✅ Empresas direcionam recursos para quem precisa
+- ✅ Dados são coletados para políticas públicas de inclusão digital
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### Backend
+- ☕ **Java 17** - Linguagem de programação
+- 🌱 **Spring Boot 3.1.5** - Framework principal
+- 📊 **Spring Data JPA** - Persistência de dados
+- 🗄️ **MySQL 8.0** - Banco de dados relacional
+- 🔧 **Lombok** - Redução de código boilerplate
+- ✅ **Spring Validation** - Validação de dados
+
+### Frontend
+- ⚛️ **React 18** - Biblioteca para interfaces
+- 🎨 **CSS3** - Estilização e animações
+- 📦 **Axios** - Requisições HTTP
+- 🧭 **React Router DOM** - Navegação entre páginas
+- 🎯 **React Toastify** - Notificações elegantes
+- 📊 **Chart.js** - Gráficos e estatísticas
+
+### Ferramentas
+- 🛠️ **Maven** - Gerenciador de dependências
+- 🐙 **Git** - Controle de versão
+- 📝 **Postman** - Testes de API
+- 🗄️ **MySQL Workbench** - Gerenciamento do banco
